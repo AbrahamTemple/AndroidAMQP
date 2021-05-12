@@ -1,0 +1,2 @@
+# AndroidAMQP
+实现Android端RabbitMQ的发布与订阅
