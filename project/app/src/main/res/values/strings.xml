@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_arouter">ArouterActivity</string>
+    <string name="account">Account</string>
+</resources>
