@@ -20,16 +20,6 @@ protected void onHandleIntent(Intent intent) {
 }
 ```
 
-- 通过IntentService发布消息
-
-``` java
-@OnClick(R.id.publish_btn)
-public void getPublish(){
-  String msg = msg_text.getText().toString();
-  AmqpService.startPublish(this,msg);
-}
-```
-
 - EventBus接收消息内容并动态修改布局
 
 ``` java
