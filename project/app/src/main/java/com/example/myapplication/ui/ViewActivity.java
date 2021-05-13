@@ -73,7 +73,7 @@ public class ViewActivity extends AppCompatActivity{
     public void call() {
         try{
             Intent intent = new Intent(Intent.ACTION_CALL);
-            intent.setData(Uri.parse("tel:13106789112"));
+            intent.setData(Uri.parse("tel:110"));
             startActivity(intent);
         }catch (SecurityException e){
             e.printStackTrace();
