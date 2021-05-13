@@ -1,8 +1,6 @@
 # Android端RabbitMQ的发布与订阅
 
-![Screenshot](docs/rb1.png)
-
-![Screenshot](docs/rb2.png)
+![Screenshot](docs/demo.png)
 
 - 使用IntentService异步执行发布或订阅
 
