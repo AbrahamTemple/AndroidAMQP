@@ -28,6 +28,6 @@ protected void onHandleIntent(Intent intent) {
 public void OnEventProgress(String msg){
     Date now = new Date();
     SimpleDateFormat ft = new SimpleDateFormat ("hh:mm:ss");
-    msg_list.setText(ft.format(now) + ' ' + msg + '\n');
+    msg_list.append(ft.format(now) + ' ' + msg + '\n');
 }
 ```
